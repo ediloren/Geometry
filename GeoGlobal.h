@@ -29,6 +29,7 @@
 #define GEOGLOBAL_DEFS
 
 //#include "Global.h"
+#include <new>
 
 #define C3D_TOL		1E-12
 #define C2D_TOL		1E-12
@@ -46,8 +47,11 @@
 
 // for multiplatform wxWidgets
 #ifndef MS_VS
+// for wxASSERT
+#  include <wx/debug.h>
 // when not using MS VisualC++
 #  define ASSERT wxASSERT
+#  define FALSE 0
 #endif
 
 #endif // GEOGLOBAL_DEFS

@@ -28,6 +28,7 @@
 #ifndef C2D_GEOMETRY_DEFS
 #define C2D_GEOMETRY_DEFS
 
+#include <cstddef>
 #include <math.h>
 #include <vector>
 

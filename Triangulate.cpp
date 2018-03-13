@@ -27,6 +27,9 @@
 
 #include "stdafx.h"
 
+// for binary_function
+#include <functional>
+
 #include "Triangulate.h"
 #include "MathDefs.h"
 #include "Geometry2D.h"
